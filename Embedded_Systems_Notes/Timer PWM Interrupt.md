@@ -121,7 +121,9 @@ What is PWM Resolution?
 
 The PWM resolution is defined as the <strong>maximum</strong> number of <strong>pulses</strong> that you can pack into one PWM <strong>period</strong>.
 
-
+<br>
+<br>
+<div align="center">ATAPUB</div>
 
 
 
