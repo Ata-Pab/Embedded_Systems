@@ -11,7 +11,7 @@ Each timer has <i>only one counter</i>, which is shared by its 4 channels. It ca
 <br>
 <br>
 
-<div align="center"><strong>f<sub>CK_CNT<sub> = f<sub>CL_PSC</sub> / (PSC + 1)</strong></div></p>
+<h4><div align="center"><strong>f<sub>CK_CNT</sub> = f<sub>CL_PSC</sub> / (PSC + 1)</strong></div></h4>
 
 Compare & Capture Register (<strong>CCR</strong>) compares Reload value which is in ARR and products output. (Timer Output: <strong>OCREF</strong>) (This output is like, <i>HIGH</i> or <i>LOW</i> )
 
@@ -55,7 +55,8 @@ Auto Reload Register holds <i>Maximum Counter value</i>.
 <br>
 
 <p>
-	<div align="center"><strong>Duty Cycle = CCR / (ARR + 1)</strong></div></p>
+	<div align="center"><strong>Duty Cycle = CCR / (ARR + 1)</strong></div>
+</p>
 <br>
 
 <h5><i>Multi Channel Outputs</i></h5>
