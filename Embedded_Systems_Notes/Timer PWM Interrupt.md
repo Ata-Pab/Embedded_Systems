@@ -4,6 +4,7 @@ Is it possible to mix modes within one timer but on different channels? For exam
 
 Yes, but they will share the <i><strong>counter</strong></i> and <i><strong>reload register</strong></i>. (Reload Register:  <strong>ARR</strong>)
 Each timer has <i>only one counter</i>, which is shared by its 4 channels. It can either count some clock events (<strong>APB</strong> clock, which usually equals the system clock), or one external trigger input. To generate a PWM signal, the counter must supply the <i>PWM frequency</i>.
+<br>
 
 <p align="center">
     <img src="https://github.com/Ata-Pab/Embedded_Systems/blob/master/Embedded_Systems_Notes/Images/Timer_PWM_Interrupt/Timer_Counter.png" alt="Timer Counter Schematic"></img>
@@ -11,7 +12,7 @@ Each timer has <i>only one counter</i>, which is shared by its 4 channels. It ca
 <br>
 <br>
 
-<h4><div align="center"><strong>f<sub>CK_CNT</sub> = f<sub>CL_PSC</sub> / (PSC + 1)</strong></div></h4>
+<h3><div align="center"><strong>f<sub>CK_CNT</sub> = f<sub>CL_PSC</sub> / (PSC + 1)</strong></div></h3>
 
 Compare & Capture Register (<strong>CCR</strong>) compares Reload value which is in ARR and products output. (Timer Output: <strong>OCREF</strong>) (This output is like, <i>HIGH</i> or <i>LOW</i> )
 
