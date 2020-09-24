@@ -1,4 +1,5 @@
 <h4><div align="center"><strong>VOLATILE KEYWORD</strong></div></h4>
+<br>
 
 Volatile Qualifier: An Object has <strong>Memory location</strong>, <strong>hardware Register</strong> or <strong>SFR</strong> which can be updated <strong>Interrupts</strong>, <strong>DMA</strong>, <strong>External Inputs</strong> (as keypad), <strong>Shared Resources</strong>. 
 Volatile prevents compiler to perform any <strong>optimization</strong> on that object that can change in ways that compiler can not determine.
