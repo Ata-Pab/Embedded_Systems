@@ -1,7 +1,7 @@
-### **VOLATILE KEYWORD**
+<h4><div align="center"><strong>VOLATILE KEYWORD</strong></div></h4>
 
-Volatile Qualifier: An Object has **Memory location**, **hardware Register** or **SFR** which can be updated **Interrupts**, **DMA**, **External Inputs** (as keypad), **Shared Resources**. 
-Volatile prevents compiler to perform any **optimization** on that object that can change in ways that compiler can not determine.
+Volatile Qualifier: An Object has <strong>Memory location</strong>, <strong>hardware Register</strong> or <strong>SFR</strong> which can be updated <strong>Interrupts</strong>, <strong>DMA</strong>, <strong>External Inputs</strong> (as keypad), <strong>Shared Resources</strong>. 
+Volatile prevents compiler to perform any <strong>optimization</strong> on that object that can change in ways that compiler can not determine.
 
 
 ```c
@@ -26,6 +26,6 @@ int main(void)
 }
 ```
 
-When Compiler has **Optimization Level0** and if value in 20000004h address is changed by 45, program jumps to *second while loop*.
+When Compiler has <strong>Optimization Level0</strong> and if value in 20000004h address is changed by 45, program jumps to <i>second while loop</i>.
 Optimization Levels change Assambly code size and Compile type of SW.
 
