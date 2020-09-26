@@ -28,5 +28,5 @@ int main(void)
 ```
 
 When Compiler has <strong>Optimization Level0</strong> and if value in 20000004h address is changed by 45, program jumps to <i>second while loop</i>.
-Optimization Levels change Assambly code size and Compile type of SW.
+Optimization Levels change Assambly code size and Compile type of SW. If optimization level is bigger, Assembly code will be more tiny
 
