@@ -29,3 +29,10 @@ int main(void)
 When Compiler has <strong>Optimization Level0</strong> and if value in 20000004h address is changed by 45, program jumps to <i>second while loop</i>.
 Optimization Levels change Assambly code size and Compile type of SW.
 
+<h4 style="text-align: left;">Proper Use of C's volatile Keyword</h4>
+<ul>
+<li>Memory-mapped peripheral registers</li>
+<li>Global variables modified by an interrupt service routine</li>
+<li>Global variables accessed by multiple tasks within a multi-threaded application</li>
+</ul>
+<p>&nbsp;</p>
